@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    background-color: #ccc;
+}
+
+.logo-container {
+    background-color: #ccc; 
+    height: 80px;
+    padding:15px 15px 5px 15px ; 
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.brand h1, .brand p {
+    margin: 0;
+}
+
+.main-content {
+    display: flex; /* Align columns horizontally */
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1; /* Ensure columns take equal space */
+    margin: 0 10px; /* Add space between columns */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border: 1px dotted green;
+}
+
+.column h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse:separate;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+.info-table th, .info-table .colspan-td {
+    border: 1px solid gray;
+    padding: 2px;
+    text-align: center; /* Center-align th and colspan td */
+}
+
+.info-table td {
+    border: 1px solid gray;
+    padding: 2px;
+    text-align: left; /* Left-align other td elements */
+}
+
+.info-table td:not(.colspan-td) {
+    text-align: left; /* Ensure other td elements are left-aligned */
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(244, 221, 210);
+    margin-top: auto;
+}
